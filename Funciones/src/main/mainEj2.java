@@ -1,26 +1,32 @@
 package main;
 
 import java.util.Scanner;
+
 import funciones.Eco;
 
-public class MainProgram {
+public class mainEj2 {
 
 	public static void main(String[] args) {
+		
 		// Creo la variable num para guardar el valor introducido por el usuario
-		int num;
+		int num1, num2;
 
 		// Creamos el Scanner
 		Scanner scanner = new Scanner(System.in);
 
-		//Le pedimos que introduzca un número el usuario
+		
 		System.out.print("Introduce un número: ");
-		//Leemos el número del teclado
-		num = scanner.nextInt();
+		num1 = scanner.nextInt();
+		
+		System.out.print("Introduce un número: ");
+		num2 = scanner.nextInt();
 
-		// Llama a la función eco() y pasa el número introducido por el usuario
-		Eco.eco(num);
+		Eco.eco(num1);
+		Eco.eco(num2);
+		
+		
 
-		//Cerramos el Scanner
+		// Cerramos el Scanner
 		scanner.close();
 
 	}
