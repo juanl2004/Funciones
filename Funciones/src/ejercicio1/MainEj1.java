@@ -1,9 +1,8 @@
-package main;
+package ejercicio1;
 
 import java.util.Scanner;
-import funciones.Eco;
 
-public class MainProgram {
+public class MainEj1 {
 
 	public static void main(String[] args) {
 		// Creo la variable num para guardar el valor introducido por el usuario
@@ -18,7 +17,7 @@ public class MainProgram {
 		num = scanner.nextInt();
 
 		// Llama a la función eco() y pasa el número introducido por el usuario
-		Eco.eco(num);
+		EcoEj1.eco(num);
 
 		//Cerramos el Scanner
 		scanner.close();
