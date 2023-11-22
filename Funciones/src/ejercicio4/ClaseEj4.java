@@ -2,9 +2,10 @@ package ejercicio4;
 
 public class ClaseEj4 {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static boolean esVocal(char caracter){
 
+		
+     }
 	}
 
 }

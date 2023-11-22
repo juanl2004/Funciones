@@ -1,9 +1,13 @@
 package ejercicio4;
 
-public class MainEj3 {
+public class MainEj4 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		char letra1 = 'a';
+		char letra2 = 'b';
+		
+		
 
 	}
 
