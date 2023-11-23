@@ -6,8 +6,9 @@ public class EcoEj6 {
 	double res = 0;
 	
 	switch (opc) {
-	case 1: res = 2*Math.PI * Math.pow
+	case 1: res = 2*Math.PI * Math.pow(radio, 2) * altura;
 	}
+	return res;
 
 	}
 
