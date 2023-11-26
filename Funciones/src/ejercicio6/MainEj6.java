@@ -20,6 +20,9 @@ public class MainEj6 {
 		System.out.println("Introduzca la altura -->");
 		altura = sc.nextDouble();
 		
+		resultado = ClaseEj6.areaVolumen(opc, radio, altura);
+		
+		System.out.println("El resultado es: " + resultado);
 		
 	}
 

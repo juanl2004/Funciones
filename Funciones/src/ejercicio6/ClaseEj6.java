@@ -1,6 +1,6 @@
 package ejercicio6;
 
-public class EcoEj6 {
+public class ClaseEj6 {
 
 	public static double areaVolumen(int opc, double radio, double altura) {
 	double res = 0;

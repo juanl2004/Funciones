@@ -5,18 +5,26 @@ import java.util.Scanner;
 public class MainEj4 {
 
 	public static void main(String[] args) {
-
-		boolean esVocal = false;
-		String vocal;
+		
+		String caracter;
+		boolean esVocal;
+		
 		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Introduce una vocal --> ");
-		vocal = sc.next();
+		caracter = sc.next();
 		
-		ClaseEj4.esVocal(esVocal);
-		
+		esVocal = ClaseEj4.compruebaVocal(caracter);
+				
+		if (esVocal) {
+			System.out.println("Es una vocal");
+		} else {
+			System.out.println("No es una vocal");
+		}		
 
+		sc.close();
+		
 	}
 
 }
