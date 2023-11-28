@@ -3,6 +3,7 @@ package ejercicio7;
 public class ClaseEj7 {
 
 	public static boolean esPrimo(int n) {
+		boolean primo;
 		
 		if (n <= 1) {
             return false;
