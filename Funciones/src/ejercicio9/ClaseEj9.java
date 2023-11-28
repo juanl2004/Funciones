@@ -8,7 +8,7 @@ public class ClaseEj9 {
 		int num1;
 		int num2;
 		int opc1;
-		double res;
+		double res
 
 		Scanner sc = new Scanner(System.in);
 		
