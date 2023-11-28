@@ -8,13 +8,18 @@ public class ClaseEj9 {
 		int num1;
 		int num2;
 		int opc1;
-		double res
+		double res;
 
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Introduce el primer número");
+		System.out.println("Introduce el primer número -->");
 		num1 = sc.nextInt();
 		
+		System.out.println("Introduce el segundo número --> ");
+		num2 = sc.nextInt();
 		
+		System.out.println("Elige --> Suma[1] - Resta[2] - Multiplicación[3] - División[4]");
+		
+		System.out.println("La solución ");
 	}
 }
