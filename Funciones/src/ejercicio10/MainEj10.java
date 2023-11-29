@@ -18,6 +18,7 @@ public class MainEj10 {
 		
 		esCorrecta = ClaseEj10.esFechaCorrecta(dia, mes, anyo);
 		
+		System.out.println("La fecha introducida es --> " + esCorrecta);
 		sc.close();
 	}
 

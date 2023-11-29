@@ -1,25 +1,27 @@
 package ejercicio9;
 
-import java.util.Scanner;
 
 public class ClaseEj9 {
 
-	public static void main(String[] args) {
-		int num1;
-		int num2;
-		int opc1;
-		double res;
+	public static double operaciones(int num1, int num2, int opc) {
+		double res = 0;
 
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.println("Introduce el primer número -->");
-		num1 = sc.nextInt();
-		
-		System.out.println("Introduce el segundo número --> ");
-		num2 = sc.nextInt();
-		
-		System.out.println("Elige --> Suma[1] - Resta[2] - Multiplicación[3] - División[4]");
-		
-		System.out.println("La solución ");
+		switch (opc) {
+		case 1:
+			res = num1 + num2;
+			break;
+		case 2:
+			res = num1 - num2;
+			break;
+		case 3:
+			res = num1 * num2;
+			break;
+		case 4:
+			res = num1 / num2;
+			break;
+		}
+
+		return res;
 	}
+
 }
